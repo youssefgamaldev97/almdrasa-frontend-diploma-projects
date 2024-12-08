@@ -1,0 +1,49 @@
+Welcome Message:
+Welcome to the classic game of Rock, Paper, Scissors! ✨ Get ready to play against the computer and see who comes out on top. Let’s have some fun!
+
+Game Rules:
+Here’s how the game works:
+
+To choose Rock, type "rock" or "r" or "1".
+To choose Paper, type "paper" or "p" or "2".
+To choose Scissors, type "scissor" or "s" or "3".
+Once you make your choice, the computer will randomly choose one as well, and we'll see who wins!
+
+Ask for User Input:
+The computer has made its choice!
+Now, it’s your turn! Please choose your weapon:
+
+Display User and Computer Input:
+You chose: [user_input]
+The computer chose: [computer_input]
+
+Result Messages:
+
+User Wins:
+Congratulations! 🎉 You won this round! Rock beats Scissors, Paper beats Rock, and Scissors beats Paper!
+
+Computer Wins:
+Oh no! 😢 The computer won this round. Better luck next time!
+
+Draw:
+It’s a tie! 🤝 Both you and the computer chose the same. Let’s see what happens next!
+
+Display the Entire Result:
+Here’s the result of the round:
+You won: [user_wins]
+The computer won: [computer_wins]
+Draws: [draws]
+
+Ask to Play Again:
+Do you want to play again? (Yes/No)
+
+End Result Message:
+Thank you for playing! Here’s how the game went:
+
+You won: [user_wins]
+The computer won: [computer_wins]
+Draws: [draws]
+It’s been a fun game!
+
+Final Goodbye:
+Thanks so much for your time! I hope you had fun playing. Looking forward to seeing you again soon. Goodbye and take care! 👋😊
