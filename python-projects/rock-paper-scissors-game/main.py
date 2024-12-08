@@ -16,14 +16,22 @@ computer_choices = ['rock', 'paper', 'scissor']
 
 computer_input = random.choice(computer_choices)
 print('The computer has made its choice!')
-user_input = input('Now, it\'s your turn! Please choose your weapon: ')
 
-if user_input in user_choices[0]:
-    user_input = 'rock'
-elif user_input in user_choices[1]:
-    user_input = 'paper'
-elif user_input in user_choices[2]:
-    user_input = 'scissor'
+user_input = ''
+while True:
+    user_input = input('Now, it\'s your turn! Please choose your weapon: ')
+    if user_input in user_choices[0] or user_choices[1] or user_choices[2]:
+        if user_input in user_choices[0]:
+            user_input = 'rock'
+            break
+        elif user_input in user_choices[1]:
+            user_input = 'paper'
+            break
+        elif user_input in user_choices[2]:
+            user_input = 'scissor'
+            break
+        else:
+            print('\nYour input doesn\'t match any of the valid options. Please try again!\n')
 
 print(f'''\nThe computer chose: {computer_input}
 You chose: {user_input}\n''')
