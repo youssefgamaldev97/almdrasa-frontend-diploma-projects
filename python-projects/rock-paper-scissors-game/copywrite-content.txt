@@ -12,6 +12,8 @@ Once you make your choice, the computer will randomly choose one as well, and we
 Ask for User Input:
 The computer has made its choice!
 Now, it’s your turn! Please choose your weapon:
+Validation text:
+Your input doesn’t match any of the valid options. Please try again!
 
 Display User and Computer Input:
 You chose: [user_input]
